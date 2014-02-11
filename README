@@ -1,0 +1,21 @@
+= pastek.vim =
+
+``pastek.vim`` is a Vim syntax file for [[ https://github.com/pastek-project/
+pastek << Pastek ]] files.
+
+== Install ==
+
+[[ http://www.vim.org/scripts/script.php?script_id=4730 << Download ]] the 
+latest version of the file, and drop it into your ``~/.vim/syntax/`` directory:
+
+```
+mkdir -p ~/.vim/syntax
+wget http://www.vim.org/scripts/download_script.php?src_id=20850 \
+    -O ~/.vim/syntax/pastek.vim
+```
+
+Then add the following line to your ``~/.vimrc`` file:
+
+```
+au BufNewFile,BufRead *.pastek set ft=pastek
+```
