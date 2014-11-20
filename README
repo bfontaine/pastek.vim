@@ -1,7 +1,6 @@
 = pastek.vim =
 
-``pastek.vim`` is a Vim syntax file for [[ https://github.com/pastek-project/
-pastek << Pastek ]] files.
+``pastek.vim`` is a Vim syntax file for Pastek files.
 
 == Install ==
 
